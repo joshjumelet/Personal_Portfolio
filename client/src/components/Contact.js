@@ -47,7 +47,7 @@ const Contact = () => {
                 <div className="contacts-info">
                   <p className="contacts-title">Phone</p>
                   <a href="tel:+13603676583" className="contact-link">
-                    +1 (360) 367-6583
+                    (360) 367-6583
                   </a>
                 </div>
               </li>
@@ -84,7 +84,7 @@ const Contact = () => {
               </li>
               <li className="contacts-item">
                 <div className="contacts-info">
-                  <p className="contacts-title">GitHub</p>
+                  <p className="contacts-title">LinkedIn</p>
                   <a
                     className="josh-linkedIn"
                     href="https://www.linkedin.com/in/joshua-jumelet/"
