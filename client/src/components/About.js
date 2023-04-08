@@ -27,6 +27,12 @@ const About = () => {
         </p>
       </section>
       <section>
+        <div className="about-doing">
+          <h3 className="doing-title">What I'm Doing</h3>
+          <div className="doing-card"></div>
+        </div>
+      </section>
+      <section>
         <h3 className="about-skills">Skills and Languages</h3>
         <ul>
           <li className="about-list">JavaScript</li>

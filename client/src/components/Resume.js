@@ -14,7 +14,7 @@ const Resume = () => {
           <div className="resume-link">
             <h5>
               Follow the link{' '}
-              <a href="https://docs.google.com/document/d/1Y80Mrkskj_dCje0KG1ueFbBmh0ko9TI1uL29efKJMLE/edit?usp=sharing">
+              <a href="https://drive.google.com/file/d/1mHM-YnNT-QhczGqhpOEH3oFeDy2OF73r/view?usp=sharing">
                 here
               </a>{' '}
               to access a copy of my Resume.
