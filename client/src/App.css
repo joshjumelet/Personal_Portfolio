@@ -1,38 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: black;
+}
+
 .App {
+  margin: 35px 50px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Poppins', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-container {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: hsla(210, 2%, 18%, 0.75);
+  border-radius: 12px 12px 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: white;
+  padding: 20px 7px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: rgb(255, 170, 0);
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 25px;
+  margin: 15px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(67, 67, 67);
+  background: hsla(210, 2%, 18%, 0.75);
+  width: 25%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-img {
+  border-radius: 50%;
+  border: 1px solid rgb(67, 67, 67);
+}
+
+.img-container {
+  width: 180px;
+  height: 180px;
+  background: rgb(67, 67, 67);
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  border: 1px solid hsla(210, 2%, 18%, 0.75);
+}
+
+.contact-title {
+  width: 250px;
+  height: 25px;
+  background: rgb(67, 67, 67);
+  border-radius: 8px;
+  border: 1px solid hsla(210, 2%, 18%, 0.75);
+}
+
+.sidebar-button {
+  padding: .8em 2em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: black;
+  background: white;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebar-button:hover {
+  background-color: rgb(250, 179, 35);
+  box-shadow: 0px 15px 20px rgba(255, 170, 0.4);
+  color: white;
+  transform: translateY(-7px);
+}
+
+.sidebar-button:active {
+  transform: translateY(-1px);
+}
+
+.contacts-list {
+  list-style-type: none;
+}
+
+.contact-img {
+  border-radius: 50%;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: rgb(255, 170, 0);
+}
+
+.location-img {
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 40px;
+}
+
+.contacts-item {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: flex-end;
+}
+
+.contacts-info {
+  text-align: left;
+  margin: 20px;
+}
+
+.github {
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.linkedIn {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.socials-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 5px;
+  list-style-type: none;
 }
