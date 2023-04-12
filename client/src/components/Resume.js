@@ -16,7 +16,7 @@ const Resume = () => {
               <h5>
                 Follow the link{' '}
                 <a
-                  href="https://drive.google.com/file/d/1mHM-YnNT-QhczGqhpOEH3oFeDy2OF73r/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1Hbt1Gq7rB0FiWphfwCujSt9bHSvDs6asC8zSY3VdDhw/edit?usp=sharing"
                   className="here"
                 >
                   here
