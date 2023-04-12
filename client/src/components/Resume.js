@@ -40,7 +40,7 @@ const Resume = () => {
               <div className="resume-header">
                 <h2>Experience</h2>
               </div>
-              <h3>Geneeral Assembly - Software Engineering Student</h3>
+              <h3>General Assembly - Software Engineering Student</h3>
               <h5 className="date">01/2023 - 04/2023</h5>
               <ul>
                 <li className="resume-list">
