@@ -104,7 +104,6 @@ const Contact = () => {
             <ul className="socials-list">
               <li className="socials-item">
                 <div className="contacts-info">
-                  {/* <p className="contacts-title">GitHub</p> */}
                   <a
                     className="josh-git"
                     href="https://github.com/joshjumelet"
@@ -121,7 +120,6 @@ const Contact = () => {
               </li>
               <li className="socials-item">
                 <div className="contacts-info">
-                  {/* <p className="contacts-title">LinkedIn</p> */}
                   <a
                     className="josh-linkedIn"
                     href="https://www.linkedin.com/in/joshua-jumelet/"

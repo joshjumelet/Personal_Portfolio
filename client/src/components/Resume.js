@@ -13,16 +13,11 @@ const Resume = () => {
         <section>
           <div className="resume-text">
             <div className="resume-link">
-              <h5>
-                Follow the link{' '}
-                <a
-                  href="https://docs.google.com/document/d/1Hbt1Gq7rB0FiWphfwCujSt9bHSvDs6asC8zSY3VdDhw/edit?usp=sharing"
-                  className="here"
-                >
-                  here
-                </a>{' '}
-                to access a copy of my Resume.
-              </h5>
+              <a href="https://drive.google.com/file/d/1N_s6b0fuyL3qIm7Ga2uiH3Tktip5Q0o5/view?usp=sharing">
+                <button className="resume-button" type="button">
+                  Resume PDF
+                </button>
+              </a>
             </div>
             <div className="resume-body">
               <p>
